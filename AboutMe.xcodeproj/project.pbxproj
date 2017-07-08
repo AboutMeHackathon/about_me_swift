@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		239324CA1F1119CF0070A9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324C91F1119CF0070A9D2 /* AppDelegate.swift */; };
-		239324CC1F1119CF0070A9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324CB1F1119CF0070A9D2 /* ViewController.swift */; };
 		239324CF1F1119CF0070A9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239324CD1F1119CF0070A9D2 /* Main.storyboard */; };
 		239324D11F1119CF0070A9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239324D01F1119CF0070A9D2 /* Assets.xcassets */; };
 		239324D41F1119CF0070A9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239324D21F1119CF0070A9D2 /* LaunchScreen.storyboard */; };
 		239324DF1F1119CF0070A9D2 /* AboutMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324DE1F1119CF0070A9D2 /* AboutMeTests.swift */; };
-		239324EA1F111B6A0070A9D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324E91F111B6A0070A9D2 /* MainViewController.swift */; };
+		239324EC1F1144280070A9D2 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324EB1F1144280070A9D2 /* InfoListViewController.swift */; };
+		239324EE1F11446D0070A9D2 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324ED1F11446D0070A9D2 /* FriendsListViewController.swift */; };
+		239324F01F11449C0070A9D2 /* InfoListTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324EF1F11449C0070A9D2 /* InfoListTableViewManager.swift */; };
+		239324F21F1144D90070A9D2 /* FriendsListTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324F11F1144D90070A9D2 /* FriendsListTableViewManager.swift */; };
+		239324F41F11496A0070A9D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324F31F11496A0070A9D2 /* MainViewController.swift */; };
+		239324F81F114D250070A9D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324F71F114D250070A9D2 /* ViewController.swift */; };
+		239324FA1F11510A0070A9D2 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324F91F11510A0070A9D2 /* InfoTableViewCell.swift */; };
+		239324FC1F1151390070A9D2 /* AddInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239324FB1F1151390070A9D2 /* AddInfoTableViewCell.swift */; };
+		23AB19021F117FC5000D5204 /* DetailFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB19011F117FC5000D5204 /* DetailFriendViewController.swift */; };
+		23AB19041F118035000D5204 /* DetailFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB19031F118035000D5204 /* DetailFriendTableViewCell.swift */; };
+		23C2530C1F117C2F008717FA /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C2530B1F117C2F008717FA /* FriendsTableViewCell.swift */; };
 		47DDBDD841E20F8867BFD796 /* Pods_AboutMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30FDD501D5BE27FD1A2FBBC /* Pods_AboutMeTests.framework */; };
 		8B85D80D62A9CDE3576E34B2 /* Pods_AboutMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167BCED6CBB989B7F6AB5DA4 /* Pods_AboutMe.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +42,6 @@
 		167BCED6CBB989B7F6AB5DA4 /* Pods_AboutMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AboutMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		239324C61F1119CF0070A9D2 /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239324C91F1119CF0070A9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		239324CB1F1119CF0070A9D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		239324CE1F1119CF0070A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		239324D01F1119CF0070A9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239324D31F1119CF0070A9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,7 +49,17 @@
 		239324DA1F1119CF0070A9D2 /* AboutMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		239324DE1F1119CF0070A9D2 /* AboutMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeTests.swift; sourceTree = "<group>"; };
 		239324E01F1119CF0070A9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		239324E91F111B6A0070A9D2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		239324EB1F1144280070A9D2 /* InfoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		239324ED1F11446D0070A9D2 /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		239324EF1F11449C0070A9D2 /* InfoListTableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoListTableViewManager.swift; sourceTree = "<group>"; };
+		239324F11F1144D90070A9D2 /* FriendsListTableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewManager.swift; sourceTree = "<group>"; };
+		239324F31F11496A0070A9D2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		239324F71F114D250070A9D2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		239324F91F11510A0070A9D2 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		239324FB1F1151390070A9D2 /* AddInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInfoTableViewCell.swift; sourceTree = "<group>"; };
+		23AB19011F117FC5000D5204 /* DetailFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFriendViewController.swift; sourceTree = "<group>"; };
+		23AB19031F118035000D5204 /* DetailFriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFriendTableViewCell.swift; sourceTree = "<group>"; };
+		23C2530B1F117C2F008717FA /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		53D5B171239E3E57A2C4B18F /* Pods-AboutMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AboutMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AboutMeTests/Pods-AboutMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E01A785B038EEFB0B2CD077 /* Pods-AboutMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AboutMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AboutMeTests/Pods-AboutMeTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D7DE65FF6A9C042233241B9 /* Pods-AboutMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AboutMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AboutMe/Pods-AboutMe.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,12 +110,21 @@
 			isa = PBXGroup;
 			children = (
 				239324C91F1119CF0070A9D2 /* AppDelegate.swift */,
-				239324CB1F1119CF0070A9D2 /* ViewController.swift */,
 				239324CD1F1119CF0070A9D2 /* Main.storyboard */,
 				239324D01F1119CF0070A9D2 /* Assets.xcassets */,
 				239324D21F1119CF0070A9D2 /* LaunchScreen.storyboard */,
 				239324D51F1119CF0070A9D2 /* Info.plist */,
-				239324E91F111B6A0070A9D2 /* MainViewController.swift */,
+				239324EB1F1144280070A9D2 /* InfoListViewController.swift */,
+				239324ED1F11446D0070A9D2 /* FriendsListViewController.swift */,
+				239324EF1F11449C0070A9D2 /* InfoListTableViewManager.swift */,
+				239324F11F1144D90070A9D2 /* FriendsListTableViewManager.swift */,
+				239324F31F11496A0070A9D2 /* MainViewController.swift */,
+				239324F71F114D250070A9D2 /* ViewController.swift */,
+				239324F91F11510A0070A9D2 /* InfoTableViewCell.swift */,
+				239324FB1F1151390070A9D2 /* AddInfoTableViewCell.swift */,
+				23C2530B1F117C2F008717FA /* FriendsTableViewCell.swift */,
+				23AB19011F117FC5000D5204 /* DetailFriendViewController.swift */,
+				23AB19031F118035000D5204 /* DetailFriendTableViewCell.swift */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -333,8 +360,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				239324EA1F111B6A0070A9D2 /* MainViewController.swift in Sources */,
-				239324CC1F1119CF0070A9D2 /* ViewController.swift in Sources */,
+				23AB19041F118035000D5204 /* DetailFriendTableViewCell.swift in Sources */,
+				239324F41F11496A0070A9D2 /* MainViewController.swift in Sources */,
+				239324FA1F11510A0070A9D2 /* InfoTableViewCell.swift in Sources */,
+				239324EE1F11446D0070A9D2 /* FriendsListViewController.swift in Sources */,
+				23C2530C1F117C2F008717FA /* FriendsTableViewCell.swift in Sources */,
+				239324FC1F1151390070A9D2 /* AddInfoTableViewCell.swift in Sources */,
+				239324F01F11449C0070A9D2 /* InfoListTableViewManager.swift in Sources */,
+				239324EC1F1144280070A9D2 /* InfoListViewController.swift in Sources */,
+				239324F21F1144D90070A9D2 /* FriendsListTableViewManager.swift in Sources */,
+				23AB19021F117FC5000D5204 /* DetailFriendViewController.swift in Sources */,
+				239324F81F114D250070A9D2 /* ViewController.swift in Sources */,
 				239324CA1F1119CF0070A9D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
